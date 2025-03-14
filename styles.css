@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    padding: 0 300px;
+    background: #1F2937;
+}
+
+.logo {
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-links {
+    display: flex;
+    /* can I find something else to push it to the left */
+    margin-left: auto;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.intro {
+    display: flex;
+    padding: 44px 300px;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: #f9faf8;
+    border: 1px solid red;
+}
+
+.title { 
+
+    font-size: 48px;
+    font-weight: 900;
+    border: 1px solid red;
+}
+
+button { 
+    background-color: #3882f6;
+    color:#E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:#E5E7EB;
+}
